@@ -5,7 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.exercise_6"
-    compileSdk = 33
+    compileSdk = 34
+
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.exercise_6"
