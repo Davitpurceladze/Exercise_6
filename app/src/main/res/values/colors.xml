@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#070724</color>
+    <color name="light_white">#80FFFFFF</color>
+    <color name="btn_color">#FF419EBB</color>
+    <color name="btn_delete_color">#D83A34</color>
+    <color name="error">#CF0800</color>
+    <color name="success">#0A7C0F</color>
+
+
+                                <!--rgba(216, 58, 52, 1)-->
 </resources>
