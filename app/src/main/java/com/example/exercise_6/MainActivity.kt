@@ -76,6 +76,8 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "User deleted successfully", Toast.LENGTH_LONG).show()
                 deletedUsers++
                 binding.tvDeletedUsers.text = "Deleted Users: $deletedUsers"
+                binding.tvActiveUsers.text = "Active Users: ${users.size}"
+
             } else {
                 Toast.makeText(this, "User with $userEmail doesn't exist", Toast.LENGTH_LONG).show()
 
